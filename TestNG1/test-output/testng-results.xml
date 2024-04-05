@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="10" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-27T14:39:27 IST" name="Suite" finished-at="2024-03-27T14:39:27 IST" duration-ms="45">
+    <groups>
+      <group name="Smoke">
+        <method signature="carloan.WebLogincar()[pri:0, instance:Practice.carloan@3fb1549b]" name="WebLogincar" class="Practice.carloan"/>
+        <method signature="demo.day1()[pri:0, instance:Practice.demo@2dde1bff]" name="day1" class="Practice.demo"/>
+        <method signature="homeloan.webloginhome()[pri:0, instance:Practice.homeloan@2b48a640]" name="webloginhome" class="Practice.homeloan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-03-27T14:39:27 IST" name="Regression" finished-at="2024-03-27T14:39:27 IST" duration-ms="45">
+      <class name="Practice.carloan">
+        <test-method signature="WebLogincar()[pri:0, instance:Practice.carloan@3fb1549b]" started-at="2024-03-27T14:39:27 IST" name="WebLogincar" finished-at="2024-03-27T14:39:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogincar -->
+      </class> <!-- Practice.carloan -->
+      <class name="Practice.demo">
+        <test-method signature="day1()[pri:0, instance:Practice.demo@2dde1bff]" started-at="2024-03-27T14:39:27 IST" name="day1" finished-at="2024-03-27T14:39:27 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day1 -->
+      </class> <!-- Practice.demo -->
+      <class name="Practice.homeloan">
+        <test-method signature="webloginhome()[pri:0, instance:Practice.homeloan@2b48a640]" started-at="2024-03-27T14:39:27 IST" name="webloginhome" finished-at="2024-03-27T14:39:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhome -->
+      </class> <!-- Practice.homeloan -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>

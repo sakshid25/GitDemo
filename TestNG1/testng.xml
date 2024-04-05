@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Sakshi.TestNG1.test"/>
+      <class name = "Sakshi.TestNG1.testcase"/>
+      <class name="Sakshi.TestNG1.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Practice">
+	  <classes>
+		 <class name="Practice.carloan">
+			 <methods>
+				 <exclude name="Mobile.*"><!-- To use regular expression, method names should have common name -->
+					 
+				 </exclude>
+			 </methods>
+			</class>
+		 <class name="Practice.homeloan">
+			 <methods>
+				 <include name="LoginAPIhome"></include>
+			 </methods>
+		 </class>
+		  
+	  </classes>
+  </test>
+</suite> <!-- Suite -->
